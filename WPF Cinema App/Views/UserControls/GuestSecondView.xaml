@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="WPF_Cinema_App.Views.UserControls.GuestSecondView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Cinema_App.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White">
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="85*"/>
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="0" Grid.Row="0" Style="{StaticResource GuestSecondViewButton}" Command="{Binding BackCommand}">
+            <Image Source="/Functional Images/back.png"  Width="48" Height="48"></Image>
+        </Button>
+
+        <Button Grid.Column="0" Grid.Row="1" Style="{StaticResource GuestSecondViewButton}" Command="{Binding HomeCommand}" 
+                Background="{Binding HomeButtonColor}">
+            <Image Source="/Functional Images/home.png"  Width="48" Height="48"></Image>
+        </Button>
+
+        <Button Grid.Column="0" Grid.Row="2" Style="{StaticResource GuestSecondViewButton}" Command="{Binding CinemaCommand}"
+                Background="{Binding TheaterButtonColor}">
+            <Image Source="/Functional Images/theater.png" Width="48" Height="48"></Image>
+        </Button>
+
+        <ContentControl Grid.Column="1" Grid.RowSpan="3" x:Name="ContentControlGuestSecondView"></ContentControl>
+
+    </Grid>
+</UserControl>

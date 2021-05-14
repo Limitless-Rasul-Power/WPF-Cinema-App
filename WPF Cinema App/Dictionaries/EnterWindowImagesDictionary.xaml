@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <BitmapImage x:Key="Dark Knight" UriSource="/Images/dark knight.jpg"></BitmapImage>
+    <BitmapImage x:Key="Snatch" UriSource="/Images/snatch.jpg"></BitmapImage>
+    <BitmapImage x:Key="Godfather" UriSource="/Images/godfather.jpg"></BitmapImage>
+    <BitmapImage x:Key="Scarface" UriSource="/Images/scarface.PNG"></BitmapImage>
+    <BitmapImage x:Key="Shutter Island" UriSource="/Images/shutter island.jpg"></BitmapImage>
+    <BitmapImage x:Key="Falling in Love" UriSource="/Images/falling in love.jpg"></BitmapImage>
+
+</ResourceDictionary>

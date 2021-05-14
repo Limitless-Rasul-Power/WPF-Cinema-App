@@ -1,0 +1,20 @@
+﻿WPF Cinema App
+
+
+winexe
+C#
+.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\
+WPF_Cinema_App
+none
+false
+DEBUG;TRACE
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\App.xaml
+19340106182
+
+511659534015
+201836425947
+Dictionaries\ButtonsDictionary.xaml;Dictionaries\ColorsDictionary.xaml;Dictionaries\EnterWindowImagesDictionary.xaml;Views\StartWindow.xaml;Views\StarWindow.xaml;Views\TrailerWindow.xaml;Views\UserControls\AdminLoginView.xaml;Views\UserControls\AdminMainView.xaml;Views\UserControls\AdminSideCinemaView.xaml;Views\UserControls\CinemaSitView.xaml;Views\UserControls\CinemaTemplate.xaml;Views\UserControls\FirstViewGuestOrAdmin.xaml;Views\UserControls\GuestBuyTicketView.xaml;Views\UserControls\GuestSecondView.xaml;Views\UserControls\HallView.xaml;Views\UserControls\LikedMoviesView.xaml;Views\UserControls\LocationView.xaml;Views\UserControls\MovieSearch.xaml;Views\UserControls\MovieTemplate.xaml;
+
+False
+

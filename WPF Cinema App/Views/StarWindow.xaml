@@ -1,0 +1,82 @@
+﻿<Window x:Class="WPF_Cinema_App.Views.StarWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_Cinema_App.Views"
+        mc:Ignorable="d"
+        Title="StarWindow" Height="300" Width="800" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush>
+                <LinearGradientBrush.GradientStops>
+                    <GradientStop Color="#00416A" Offset="0.3"/>
+                    <GradientStop Color="#799F0C" Offset="0.7"/>
+                    <GradientStop Color="#FFE000" Offset="1"/>
+                </LinearGradientBrush.GradientStops>
+            </LinearGradientBrush>
+        </Grid.Background>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30*"/>
+            <ColumnDefinition Width="40*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Image Source="{Binding ImagePaths[0]}" Width="48" Height="48" x:Name="First" Cursor="Hand">
+                    <Image.InputBindings>
+                        <MouseBinding Gesture="LeftClick" Command="{Binding OneLeftCommand}" CommandParameter="{Binding ElementName=First, Path=Name}"/>
+                        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding TwoLeftCommand}" CommandParameter="{Binding ElementName=First, Path=Name}"/>
+                    </Image.InputBindings>
+                </Image>
+
+                <Image Source="{Binding ImagePaths[1]}" Width="48" Height="48" Margin="7, 0, 0 , 0" x:Name="Second" Cursor="Hand">
+                    <Image.InputBindings>
+                        <MouseBinding Gesture="LeftClick" Command="{Binding OneLeftCommand}" CommandParameter="{Binding ElementName=Second, Path=Name}"/>
+                        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding TwoLeftCommand}" CommandParameter="{Binding ElementName=Second, Path=Name}"/>
+                    </Image.InputBindings>
+                </Image>
+
+                <Image Source="{Binding ImagePaths[2]}" Width="48" Height="48" Margin="7, 0, 0 , 0" x:Name="Third" Cursor="Hand">
+                    <Image.InputBindings>
+                        <MouseBinding Gesture="LeftClick" Command="{Binding OneLeftCommand}" CommandParameter="{Binding ElementName=Third, Path=Name}"/>
+                        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding TwoLeftCommand}" CommandParameter="{Binding ElementName=Third, Path=Name}"/>
+                    </Image.InputBindings>
+                </Image>
+
+                <Image Source="{Binding ImagePaths[3]}" Width="48" Height="48" Margin="7, 0, 0 , 0" x:Name="Fourth" Cursor="Hand">
+                    <Image.InputBindings>
+                        <MouseBinding Gesture="LeftClick" Command="{Binding OneLeftCommand}" CommandParameter="{Binding ElementName=Fourth, Path=Name}"/>
+                        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding TwoLeftCommand}" CommandParameter="{Binding ElementName=Fourth, Path=Name}"/>
+                    </Image.InputBindings>
+                </Image>
+
+                <Image Source="{Binding ImagePaths[4]}" Width="48" Height="48" Margin="7, 0, 0 , 0" x:Name="Fifth" Cursor="Hand">
+                    <Image.InputBindings>
+                        <MouseBinding Gesture="LeftClick" Command="{Binding OneLeftCommand}" CommandParameter="{Binding ElementName=Fifth, Path=Name}"/>
+                        <MouseBinding Gesture="LeftDoubleClick" Command="{Binding TwoLeftCommand}" CommandParameter="{Binding ElementName=Fifth, Path=Name}"/>
+                    </Image.InputBindings>
+                </Image>
+                
+            </WrapPanel>
+        </Grid>
+
+        <TextBlock Grid.Row="2" Grid.Column="0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="DemiBold"
+                   Foreground="White">
+            <Run Text="Rating:"/>
+            <Run Text="{Binding RatingNumber}"/>
+        </TextBlock>
+
+        <Button Grid.Row="2" Grid.Column="2" Style="{StaticResource AddToCinemaButton}" Content="Done" Margin="16"
+                Command="{Binding CloseWindowCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType={x:Type Window}}}"/>
+
+    </Grid>
+</Window>

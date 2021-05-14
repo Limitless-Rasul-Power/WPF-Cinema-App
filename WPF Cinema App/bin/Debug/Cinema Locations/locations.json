@@ -1,0 +1,23 @@
+[
+  {
+    "Coordinate": "40.370800, 49.849724",
+    "Address": "Park Bulvar. Address : Neftçilər pr. 1, Baku, Baku AZ1001",
+    "ImagePath": "../../Location Images/park bulvar.jpg",
+    "TelephoneNumber": "+994 12 598 80 80",
+    "Site": "parkbulvar.az"
+  },
+  {
+    "Coordinate": "40.403214, 49.863857",
+    "Address": "Ganjlik Mall. Address : Fatali Khan Khoyski 14, Baku, Baku 1072",
+    "ImagePath": "../../Location Images/genclik.jpg",
+    "TelephoneNumber": "+994 12 404 82 42",
+    "Site": "mallganjlik.az"
+  },
+  {
+    "Coordinate": "40.402401, 49.837399",
+    "Address": "28 Mall. Address : Azadlig avenue 93, Baku, Baku 1014",
+    "ImagePath": "../../Location Images/28 mall.jpg",
+    "TelephoneNumber": "+994 12 404 82 20",
+    "Site": "mall28.az"
+  }
+]

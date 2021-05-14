@@ -1,0 +1,17 @@
+﻿<Application x:Class="WPF_Cinema_App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPF_Cinema_App"
+             StartupUri="/Views/StartWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Dictionaries/EnterWindowImagesDictionary.xaml"/>
+                <ResourceDictionary Source="Dictionaries/ButtonsDictionary.xaml"/>
+                <ResourceDictionary Source="Dictionaries/ColorsDictionary.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+        
+    </Application.Resources>
+</Application>

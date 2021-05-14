@@ -1,0 +1,81 @@
+﻿<UserControl x:Class="WPF_Cinema_App.Views.UserControls.LikedMoviesView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Cinema_App.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="1000">
+    <Grid Background="WhiteSmoke">
+
+        <ListView ItemsSource="{Binding Movies}" FontSize="20" ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                  x:Name="LstVwFirst">
+
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"></Setter>
+                </Style>
+            </ListView.ItemContainerStyle>
+
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Vertical"></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+
+
+            <ListView.View>
+
+                <GridView>
+
+                    <GridViewColumn Header="Movie Image" Width="240" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Stretch="Fill" Source="{Binding Poster}"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Movie Title" Width="190" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding TitleAndImdbRatingCombination}" FontSize="20" TextWrapping="Wrap" TextAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Movie Genre" Width="190" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Genre}" FontSize="20" TextWrapping="Wrap" TextAlignment="Center"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Like Count" Width="190" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding LikeCount}" FontSize="20" TextWrapping="Wrap" TextAlignment="Center"
+                                           Foreground="Red" FontWeight="Bold"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Put Cinema" Width="190" >
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Command="{Binding ElementName=LstVwFirst, Path=DataContext.PutMovieToCinemaCommand}" CommandParameter="{Binding}" Content="Add to Cinema"
+                                        Style="{StaticResource AddToCinemaButton}" Height="50"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+                </GridView>
+                
+                
+            </ListView.View>
+        </ListView>
+
+    </Grid>
+</UserControl>

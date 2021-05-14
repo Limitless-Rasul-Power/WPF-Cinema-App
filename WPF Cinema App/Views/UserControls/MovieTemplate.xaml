@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="WPF_Cinema_App.Views.UserControls.MovieTemplate"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPF_Cinema_App.Views.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="650">
+    <Border BorderBrush="Bisque" BorderThickness="4" CornerRadius="10">
+        <Grid Background="White" Margin="2">
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="12*"/>
+                <RowDefinition Height="65*"/>
+                <RowDefinition Height="8*"/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center" Text="{Binding Movie.TitleAndImdbRatingCombination}"
+                   TextWrapping="Wrap"/>
+
+            <Image Grid.Row="1" Source="{Binding Movie.Poster}" Stretch="Fill" Cursor="Hand" ToolTip="Watch Trailer">
+                <Image.InputBindings>
+                    <MouseBinding Gesture="LeftClick" Command="{Binding ImageMouseLeftCommand}"/>
+                </Image.InputBindings>
+            </Image>
+            
+            <TextBlock Grid.Row="2" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   FontWeight="SemiBold" Foreground="DarkSalmon" Text="{Binding Movie.Genre}" TextWrapping="Wrap"></TextBlock>
+
+            <Grid Grid.Row="3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="80*"/>
+                    <ColumnDefinition Width="10*"/>
+                    <ColumnDefinition Width="10*"/>
+                </Grid.ColumnDefinitions>
+
+                <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                    <TextBlock FontSize="18" FontWeight="DemiBold" FontStyle="Italic" Padding="10, 10, 0, 0" TextWrapping="Wrap" Text="{Binding Movie.Plot}"/>
+                </ScrollViewer>
+
+                <TextBlock Grid.Column="1" FontSize="18" HorizontalAlignment="Right"  VerticalAlignment="Center" Foreground="Black" FontFamily="Verdana"
+                           FontWeight="ExtraBold" TextWrapping="Wrap" Text="{Binding Movie.LikeCount}" />
+
+                <Button Grid.Column="2" Style="{StaticResource LikeButton}" Width="55" Height="55" Command="{Binding LikeCommand}">
+                    <Image Source="/Functional Images/like.png"></Image>
+                </Button>
+
+
+            </Grid>
+
+        </Grid>
+    </Border>
+</UserControl>

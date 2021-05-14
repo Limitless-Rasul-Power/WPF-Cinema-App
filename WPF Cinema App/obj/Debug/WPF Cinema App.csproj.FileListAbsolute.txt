@@ -1,0 +1,57 @@
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\WPF Cinema App.exe.config
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\WPF Cinema App.exe
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\WPF Cinema App.pdb
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\itextsharp.dll
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\itextsharp.xml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Dictionaries\ButtonsDictionary.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Dictionaries\EnterWindowImagesDictionary.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\StartWindow.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\TrailerWindow.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminLoginView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminMainView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminSideCinemaView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\CinemaSitView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\CinemaTemplate.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\FirstViewGuestOrAdmin.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\GuestBuyTicketView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\GuestSecondView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\HallView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\LikedMoviesView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\MovieSearch.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\MovieTemplate.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\App.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App_MarkupCompile.cache
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App_MarkupCompile.lref
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\App.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\StartWindow.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\TrailerWindow.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminLoginView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminMainView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\AdminSideCinemaView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\CinemaSitView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\CinemaTemplate.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\FirstViewGuestOrAdmin.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\GuestBuyTicketView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\GuestSecondView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\HallView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\LikedMoviesView.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\MovieSearch.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\MovieTemplate.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.g.resources
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF_Cinema_App.Properties.Resources.resources
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.csproj.CopyComplete
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.exe
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\WPF Cinema App.pdb
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\StarWindow.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\StarWindow.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Dictionaries\ColorsDictionary.baml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\Microsoft.Maps.MapControl.WPF.dll
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\bin\Debug\Microsoft.Maps.MapControl.WPF.xml
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\LocationView.g.cs
+C:\Users\Admin\source\repos\WPF Cinema App\WPF Cinema App\obj\Debug\Views\UserControls\LocationView.baml
